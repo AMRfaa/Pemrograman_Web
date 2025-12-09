@@ -1,3 +1,3 @@
 # Pemrograman_Web
-## Aplikasi Pemesanan Hotel
+## Aplikasi My Hotel
 ## Kelompok 1
