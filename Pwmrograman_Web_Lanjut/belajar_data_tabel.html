@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>belajar tabel html</title>
+
+        <link rel="stylesheet" href="jquery.dataTables.min.css"></link>
+        <script src="jquery-3.7.0.min.js"></script> 
+        <script src="jquery.dataTables.min.js"></script>
+    </head>
+    <body>
+        <table border="1" cellpadding="10" id="table1">
+        <thead>
+        <tr>
+            <th>Nama</th> 
+            <th>Prodi</th>
+            <th>Kelas</th>
+            <th>Sosmed</th>
+        </tr>
+        </thead>
+        <tr>
+            <td>Anisa Muziya Rafa</td>
+            <td>Teknologi Informasi</td>
+            <td>4B</td>
+            <td><a href="https://www.instagram.com/anisa_muziya/">IG:anisa.muziya</a></td>
+        </tr>
+        <tr>
+            <td>Windy Aprilia</td>
+            <td>Teknologi Informasi</td>
+            <td>4B</td>
+            <td><a href="https://www.instagram.com/windyprlya_/">IG:windyprlya_</a></td>
+        </tr>
+        <tr>
+            <td>Muh Diky Assidiqi</td>
+            <td>Teknologi Informasi</td>
+            <td>4B</td>
+            <td><a href="https://www.instagram.com/dikyassidiqi_/">IG:dikyassidiqi_</a></td>
+        </tr>
+        <tr>
+            <td>Hidayaturrahman</td>
+            <td>Teknologi Informasi</td>
+            <td>4B</td>
+            <td><a href="https://www.instagram.com/d4yat30/">IG:d4yat30</a></td>
+        </tr>
+        </table>
+        <script>
+            $(document).ready(function () {
+                $('#table1').DataTable();
+            });
+        </script>
+    </body>
+</html>
