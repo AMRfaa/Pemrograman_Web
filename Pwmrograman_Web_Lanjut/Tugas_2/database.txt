@@ -1,0 +1,8 @@
+create database data_mahasiswa;
+use data_mahasiswa;
+ create table tbdata (
+    -> nim VARCHAR(10) PRIMARY KEY,
+    -> nama VARCHAR(100),
+    -> prodi VARCHAR(50),
+    -> alamat VARCHAR(100)
+    -> );
